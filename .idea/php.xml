@@ -3,7 +3,6 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="C:/xampp/php/PEAR" />
-      <path value="" />
     </include_path>
   </component>
 </project>
