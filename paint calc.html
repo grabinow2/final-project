@@ -20,18 +20,8 @@
             var length = $("length").value;
             var height = $("height").value;
 
-            if (isNaN(width) || width <= 0) {
-                alert("width must be numeric and greater than zero");
-                $("width").focus();
-            } else if (isNaN(length) || length <= 0) {
-                alert("Length must be numeric and greater than zero");
-                $("length").focus();
-            } else if (isNaN(height) || length <= 0) {
-                alert("Height must be numeric and greater than zero");
-                $("height").focus();
-            } else {
-                $("gallons").value = calculateGallons(width, length, height);
-            }
+            $("gallons").value = calculateGallons(width, length, height);
+
         };
         var clearEntries = function () {
             $("width").value = "";
@@ -58,8 +48,8 @@
         <input type="number" required name='length' id="length"><br>
         <label for="height">Height of room:</label>
         <input type="number" required name='height' id="height"><br>
-        <label for="gallons">Gallons needed</label>
-        <input type="text" id="gallons" disabled><br>
+        <label for="gallons">Gallons needed:</label>
+        <input type="number" id="gallons" disabled><br>
         <label>&nbsp;</label>
         <input type="button" id="calculate" value="Calculate"><br>
         <label>&nbsp;</label>

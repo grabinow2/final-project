@@ -38,15 +38,18 @@
     <h1>Sign Up For Emails</h1>
 
     <form action="/action_page.php"> <!--TODO confirmation page-->
-        <label for="name"> name</label>
+        <label for="name"> name:</label>
         <input type="text" required name='name' id="name" pattern="[A-Z a-z]*"><br>
+        <label>gender:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
-        <label for="age"> age</label>
+        <label for="age"> age:</label>
         <input type="number" required name='age' id="age" min="0" max="120"><br>
-        <label for="email">email</label>
+        <label for="birthday">birthday:</label>
+        <input type="date" required id="birthday" name="birthday"><br>
+        <label for="email">email:</label>
         <input type="email" required name='email' id="email"><br>
         <label>&nbsp;</label>
         <input type="submit" id="signUp" value="Sign Up"><br>
