@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up for emails</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <script src="../js/include.js"></script>
+
+    <script>
+        "use strict";
+        var $ = function (id) {
+            return document.getElementById(id);
+        };
+
+        /*        var processEntries = function () {
+                    var name = $("name").value;
+                    var email = $("email").value;
+                    var age = $("age").value;
+                    var gender = $("gender").value;
+
+                    //enter email into system
+                    //TODO send to confirmation page
+                };*/
+
+        var clearEntries = function () {
+            $("name").value = "";
+            $("email").value = "";
+            $("gender").value = "";
+            $("age").value = "";
+            $("name").focus();
+        };
+        window.onload = function () {
+            //$("signUp").onclick = processEntries;
+            $("clear").onclick = clearEntries;
+            $("name").focus();
+        };
+    </script>
+
+</head>
+
+    <body>
+
+        <div include-navigationBar-html="navbar.html"></div>
+        <script>
+            includeNavbarHTML();
+        </script>
+
+        <main>
+
+            <h1>Sign Up For Emails</h1>
+
+            <form action="/action_page.php"> <!--TODO confirmation page-->
+                <label for="name"> name:</label>
+                <input type="text" required name='name' id="name" pattern="[A-Z a-z]*"><br>
+                <label>gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <label for="age"> age:</label>
+                <input type="number" required name='age' id="age" min="0" max="120"><br>
+                <label for="birthday">birthday:</label>
+                <input type="date" required id="birthday" name="birthday"><br>
+                <label for="email">email:</label>
+                <input type="email" required name='email' id="email"><br>
+                <label>&nbsp;</label>
+                <input type="submit" id="signUp" value="Sign Up"><br>
+                <label>&nbsp;</label>
+                <input type="button" id="clear" value="Clear Entries"><br>
+            </form>
+
+        </main>
+
+        <div include-Footer-html="footer.html"></div>
+        <script>
+            includeFooterHTML();
+        </script>
+
+    </body>
+
+</html>
+
