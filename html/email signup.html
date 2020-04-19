@@ -36,13 +36,6 @@
                     //TODO send to confirmation page
                 };*/
 
-        var clearEntries = function () {
-            $("name").value = "";
-            $("email").value = "";
-            $("gender").value = "";
-            $("age").value = "";
-            $("name").focus();
-        };
         window.onload = function () {
             //$("signUp").onclick = processEntries;
             $("clear").onclick = clearEntries;
@@ -80,7 +73,7 @@
                 <label>&nbsp;</label>
                 <input type="submit" id="signUp" value="Sign Up"><br>
                 <label>&nbsp;</label>
-                <input type="button" id="clear" value="Clear Entries"><br>
+                <input type="reset" value="Reset">
             </form>
 
         </main>
