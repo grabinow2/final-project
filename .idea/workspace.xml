@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22eec372-aa41-49a5-85ae-6322e88e3282" name="Default Changelist" comment="renamed stuff i think">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="22eec372-aa41-49a5-85ae-6322e88e3282" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/email signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paint calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/paint calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/email signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/email signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paint calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/paint calc.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,47 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="111" column="9" lean-forward="true" selection-start-line="108" selection-end-line="111" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/navbar.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/include.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="35" column="54" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/email signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="90" column="17" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="90" selection-end-column="17" />
+              <caret line="68" column="75" lean-forward="true" selection-start-line="68" selection-start-column="75" selection-end-line="68" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -73,12 +35,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/paint calc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding>
-                <element signature="e#2704#2710#1" expanded="true" />
-                <element signature="e#2809#2815#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/email signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -110,8 +77,8 @@
         <option value="$PROJECT_DIR$/js/include.js" />
         <option value="$PROJECT_DIR$/html/footer.html" />
         <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/html/email signup.html" />
         <option value="$PROJECT_DIR$/html/paint calc.html" />
+        <option value="$PROJECT_DIR$/html/email signup.html" />
       </list>
     </option>
   </component>
@@ -190,12 +157,12 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\gedal\Desktop\School\Frontend\final-project\imgs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gedal\Desktop\School\Frontend\final-project\html" />
       <recent name="C:\Users\gedal\Desktop\School\Frontend\final-project\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gedal\Desktop\School\Frontend\final-project\imgs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,6 +176,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="email signup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/final-project/html/email signup.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.email signup.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -228,6 +205,7 @@
       <workItem from="1584887772502" duration="633000" />
       <workItem from="1585602692717" duration="97000" />
       <workItem from="1586272829905" duration="1796000" />
+      <workItem from="1588469507243" duration="4165000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of Bootstrap css and js files">
       <created>1582770807763</created>
@@ -254,7 +232,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14471000" />
+    <option name="totallyTimeSpent" value="18928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +247,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -279,12 +257,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32765958" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
@@ -301,6 +279,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit of Bootstrap css and js files" />
@@ -382,28 +386,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/email signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="90" column="17" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="90" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/paint calc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="e#2704#2710#1" expanded="true" />
-            <element signature="e#2809#2815#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="111" column="9" lean-forward="true" selection-start-line="108" selection-end-line="111" selection-end-column="9" />
+        <state relative-caret-position="697">
+          <caret line="68" column="75" lean-forward="true" selection-start-line="68" selection-start-column="75" selection-end-line="68" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/email signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
         </state>
       </provider>
     </entry>
