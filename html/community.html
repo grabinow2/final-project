@@ -25,11 +25,24 @@
 
             $.getJSON(url, function(data){
                 var html = "";
+                var counter = 0;
                 $.each(data.items, function(i, item){
-                    html += "<h2>" + item.title + "</h2>";
-                    html += "<p>" + item.date_taken + "</p>";
-                    html +=  item.description;
-                    html += "<br>";
+
+                    if (counter === 0){
+                        html += "<div class='row'>"
+                    }
+
+                    html +=  "<div class='col'>"
+                        + "<img src=" + item.media.m + ">"
+                        + "</div>";
+
+                    if (counter === 3){
+                        html += "</div>";
+                        counter = 0;
+                    } else {
+                        counter++;
+                    }
+
                 });
                 $("#photos").html(html);
             });
@@ -44,7 +57,7 @@
 </script>
 
 <h1>Our Community</h1>
-<div id="photos"></div>
+<div id="photos" class="container"></div>
 
 <div include-Footer-html="footer.html"></div>
 <script>
