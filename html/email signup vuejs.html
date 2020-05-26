@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up for emails</title>
+
+    <script src="https://unpkg.com/vue"></script>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <script src="../js/include.js"></script>
+
+    <script>
+        "use strict";
+        var $ = function (id) {
+            return document.getElementById(id);
+        };
+
+        /*        var processEntries = function () {
+                    var name = $("name").value;
+                    var email = $("email").value;
+                    var age = $("age").value;
+                    var gender = $("gender").value;
+
+                    //enter email into system
+                    //TODO send to confirmation page
+                };*/
+
+        window.onload = function () {
+            //$("signUp").onclick = processEntries;
+            $("name").focus();
+        };
+    </script>
+
+</head>
+
+<body>
+
+<div include-navigationBar-html="navbar.html"></div>
+<script>
+    includeNavbarHTML();
+</script>
+<div id="components-demo">
+    <signupform></signupform>
+</div>
+<script>
+    Vue.component('signupform', {
+        data: function () {
+            return {
+                first: "",
+                last: "",
+                skillLevel: "",
+                gender: "",
+                birthday: "",
+                email: "",
+            }
+        },
+        computed: {
+            fullName: function () {
+                return this.first + ' ' + this.last
+            },
+        },
+        template:
+
+            `<div class="container" xmlns="http://www.w3.org/1999/html">
+
+    <h1>Sign Up For Emails</h1>
+<h1></h1>
+    <form action="email_confirmation.html">
+        <div class="row">
+            <div class="form-group col-3">
+                <label for="first">First Name:</label>
+                <input v-model="first" type="text" class="form-control" required name='first' id="first" pattern="[A-Za-z]*"><br>
+            </div>
+            <div class="form-group col-3">
+                <label for="last">Last Name:</label>
+                <input v-model="last" type="text" class="form-control" required name='last' id="last" pattern="[A-Za-z]*"><br>
+            </div>
+            <div class="form-group col-2">
+                <label for="skillLevel"> Skill Level (1-3):</label>
+                <input v-model="skillLevel" type="number" class="form-control" required name='skillLevel' id="skillLevel" min="1" max="3"><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-4">
+                <label>Gender: </label><br>
+                <input v-model="gender" type="radio" class="form-check-input" id="male" name="gender" value="male" required>
+                <label for="male" class="form-check-label">Male</label><br>
+
+                <input v-model="gender" type="radio" class="form-check-input" id="female" name="gender" value="female">
+                <label for="female" class="form-check-label">Female</label><br>
+
+                <input v-model="gender" type="radio" class="form-check-input" id="other" name="gender" value="other">
+                <label for="other" class="form-check-label">Other</label><br>
+<div class="row">
+<div class="form-group col-4">
+                <label v-if="gender!=='male' && gender!=='female'" for="otherText">Other: </label>
+                <input v-if="gender!=='male' && gender!=='female'" v-model="gender" type="text" class="form-control" required name="otherText" id="otherText">
+</div></div></div>
+            </div>
+            <div class="row">
+            <div class="form-group col-3">
+                <label for="birthday">Birthday:</label>
+                <input type="date" class="form-control" required id="birthday" name="birthday"><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-5">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" required name='email' id="email"><br>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>&nbsp;</label>
+            <input type="submit" id="signUp" value="Sign Up"><br>
+        </div>
+        <div class="form-group">
+            <label>&nbsp;</label>
+            <input type="reset" id="clear" value="Clear Entries"><br>
+        </div>
+    </form>
+
+</div>`
+    });
+    app = new Vue({
+        el: '#components-demo'
+    })
+</script>
+<div include-Footer-html="footer.html"></div>
+<script>
+    includeFooterHTML();
+</script>
+
+</body>
+
+</html>
+
