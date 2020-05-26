@@ -74,11 +74,11 @@
         },
         template:
 
-            `<div class="container" xmlns="http://www.w3.org/1999/html">
+`<div class="container" xmlns="http://www.w3.org/1999/html">
 
     <h1>Sign Up For Emails</h1>
-<h1></h1>
-    <form action="email_confirmation.html">
+    <br>
+    <form id="email_form" action="email_confirmation.html">
         <div class="row">
             <div class="form-group col-3">
                 <label for="first">First Name:</label>
@@ -104,13 +104,16 @@
 
                 <input v-model="gender" type="radio" class="form-check-input" id="other" name="gender" value="other">
                 <label for="other" class="form-check-label">Other</label><br>
-<div class="row">
-<div class="form-group col-4">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-2">
                 <label v-if="gender!=='male' && gender!=='female'" for="otherText">Other: </label>
                 <input v-if="gender!=='male' && gender!=='female'" v-model="gender" type="text" class="form-control" required name="otherText" id="otherText">
-</div></div></div>
             </div>
-            <div class="row">
+        </div>
+        <div class="row">
             <div class="form-group col-3">
                 <label for="birthday">Birthday:</label>
                 <input type="date" class="form-control" required id="birthday" name="birthday"><br>
@@ -142,6 +145,20 @@
 <script>
     includeFooterHTML();
 </script>
+
+<script>
+    $("email_form").onsubmit = (function (e) {
+
+        var str = "Are you sure this is correct?";
+
+        var r = confirm(str);
+        if (!r){
+            e.preventDefault();
+        }
+    });
+
+</script>
+
 
 </body>
 
