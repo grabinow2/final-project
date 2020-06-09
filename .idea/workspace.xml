@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22eec372-aa41-49a5-85ae-6322e88e3282" name="Default Changelist" comment="" />
+    <list default="true" id="22eec372-aa41-49a5-85ae-6322e88e3282" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/html/community.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -41,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/html/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="104" lean-forward="true" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
+              <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -59,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/html/paint_calc.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="e#2781#2787#1" expanded="true" />
                 <element signature="e#2971#2977#1" expanded="true" />
@@ -239,7 +241,7 @@
       <workItem from="1591306428347" duration="22000" />
       <workItem from="1591306528231" duration="636000" />
       <workItem from="1591553501129" duration="601000" />
-      <workItem from="1591660292041" duration="2665000" />
+      <workItem from="1591660292041" duration="2816000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of Bootstrap css and js files">
       <created>1582770807763</created>
@@ -290,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591662942830</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added work breakdown sheet">
+      <created>1591663243585</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591663243585</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30056000" />
+    <option name="totallyTimeSpent" value="30207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,9 +316,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22080536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22080536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,7 +398,8 @@
     <MESSAGE value="Rearranged some tags to fix bootstrap forms" />
     <MESSAGE value="Deleted repeat file. added confirmation box" />
     <MESSAGE value="Last minute changes, renames, edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last minute changes, renames, edits" />
+    <MESSAGE value="added work breakdown sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="added work breakdown sheet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/bootstrap.bundle.js">
@@ -484,14 +493,14 @@
     <entry file="file://$PROJECT_DIR$/html/community.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="104" lean-forward="true" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
+          <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
         </state>
       </provider>
     </entry>
@@ -505,7 +514,7 @@
     <entry file="file://$PROJECT_DIR$/html/paint_calc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#2781#2787#1" expanded="true" />
             <element signature="e#2971#2977#1" expanded="true" />
